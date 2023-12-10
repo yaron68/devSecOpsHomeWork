@@ -43,7 +43,7 @@ while(quit):
                     if char_amount_index == char_amount:
                         break
                 if selected_phrase_fill == selected_phrase:
-                    print(f"You success to find the phrase {selected_phrase}")
+                    print(f"You success to find the phrase : {selected_phrase}")
                     # give bonus 100 points if user finish within 29 seconds
                     if time.time() - begin_time < 30:
                         score += 100
